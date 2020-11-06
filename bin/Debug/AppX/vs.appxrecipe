@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JACOBLAPTOP</Machine>
+    <WindowsUser>jserf</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1c7e6d69-3fb9-40e9-bcfb-a6b0147b23e3</PackageIdentityName>
+    <PackageIdentityPublisher>CN=jserf</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\jserf\source\repos\Snake 2\Snake 2\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\jserf\source\repos\Snake 2\Snake 2\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>09370F109A8C2A74F5A5734BE86EEFDD5613BA629450F458F597E6A053B6E0A8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1c7e6d69-3fb9-40e9-bcfb-a6b0147b23e3_1.0.0.0_neutral__ks5bszhn1px3a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1c7e6d69-3fb9-40e9-bcfb-a6b0147b23e3_ks5bszhn1px3a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1c7e6d69-3fb9-40e9-bcfb-a6b0147b23e3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=jserf</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-22T02:10:24.413</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\brain.js">
+      <PackagePath>js\brain.js</PackagePath>
+      <Modified>2020-02-01T23:53:05.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\canvas.js">
+      <PackagePath>js\canvas.js</PackagePath>
+      <Modified>2020-05-20T21:33:11.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\classes.js">
+      <PackagePath>js\classes.js</PackagePath>
+      <Modified>2020-04-28T19:20:23.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\functions.js">
+      <PackagePath>js\functions.js</PackagePath>
+      <Modified>2020-05-05T19:14:50.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2020-05-20T21:33:11.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\variables.js">
+      <PackagePath>js\variables.js</PackagePath>
+      <Modified>2020-05-05T18:56:25.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\neuralNetwork.js">
+      <PackagePath>js\neuralNetwork.js</PackagePath>
+      <Modified>2020-05-05T19:24:23.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\titleScreen.js">
+      <PackagePath>titleScreen.js</PackagePath>
+      <Modified>2020-04-27T17:56:43.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2020-05-20T21:33:11.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-02-28T23:44:29.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-28T23:44:29.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-28T23:44:29.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-28T23:44:29.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-28T23:44:29.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-28T23:44:29.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-28T23:44:29.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2020-05-05T19:02:29.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\js\WorkingNodeSnake.njsproj">
+      <PackagePath>js\WorkingNodeSnake.njsproj</PackagePath>
+      <Modified>2020-02-01T22:09:15.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jserf\source\repos\Snake 2\Snake 2\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-10-22T02:10:24.354</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

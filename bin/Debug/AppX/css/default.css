@@ -1,0 +1,115 @@
+﻿
+
+h1 {
+    
+}
+.highscore {
+    position: relative;
+    background-color: rgba(0,0,0,0.3);
+    left: 25px;
+    bottom: 97vh;
+    z-index: 10;
+    font-size: 5vh;
+}
+
+canvas {
+    z-index: -1;
+    background-color: skyblue;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+
+button {
+    position: absolute;
+    bottom: 40vh;
+    z-index: 10;
+    width: 10vw;
+    height: 10vh;
+    font-size: 2vh;
+    font-family: Georgia;
+    background-color: springgreen;
+    border: 2px solid springgreen;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: rgba(0, 255, 127, 0.2);
+}
+.button1 {
+    left: 30vw;
+}
+.button2 {
+    right: 30vw;
+
+}
+.title {
+    position: absolute;
+    bottom: 75vh;
+    z-index: 10;
+    left: 42vw;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 5vh;
+}
+
+
+.speedLabel {
+    position: absolute;
+    left: 42vw;
+    bottom: 22vh;
+    font-size: 5vh;
+}
+.instructionLabel {
+    position: absolute;
+    width: 60vw;
+    left: 20vw;
+    bottom: 55vh; /*15*/
+    font-size: 2.5vh;
+}
+
+
+/* Everything below here is taken from www.w3schools.com and edited slightly to fit this program. I am not taking credit for writing this code.*/
+/*The slider itself */
+.slider {
+    -webkit-appearance: none;
+    width: 40vw;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: absolute;
+    bottom: 20vh;
+    left: 30vw;
+}
+    .slider:hover {
+        opacity: 1; 
+    }
+
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: green;
+        cursor: pointer;
+        z-index: 15;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: green;
+        cursor: pointer;
+        z-index: 15;
+    }
